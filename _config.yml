@@ -5,13 +5,13 @@ description: > # this means to ignore newlines until "baseurl:"
   日拱一卒
   功不唐捐
 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: youknownothingg
+github_username:  youknownothingg
 
 github_url: https://github.com/youknownothingg
 baseurl: "/itstime" # the subpath of your site, e.g. /blog/
 # repository: youknownothingg/youknownothingg.github.io
-# url: https://youknownothingg.github.io
+url: https://youknownothingg.github.io/itstime
 
 # Build settings
 markdown: kramdown
@@ -50,6 +50,11 @@ menus:
   -
     href: cat/list
     label: Archieve
+
+
+  -
+    href: cat/util
+    label: Util
 
   -
     href: cat/casual

@@ -6,15 +6,12 @@ layout: default
     <div class="container">
         <ul>
             {% for post in site.posts %}
-                {% if {{post.category}} == "Java" %}
+                {% if {{post.category}} == "SpringBoot" %}
                     <li>
                       <span></span>{{ post.date | date: "%Y-%m-%d" }} <a class="post-list-a" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                      <!-- <div>
+                      <div>
                           <p>{{post.content | markdownify | strip_html | truncate:200}}</p>
-                      </div> -->
-                      <section class="post-content">
-                          {{ post.excerpt }}
-                      </section>
+                      </div>
                     </li>
                 {% endif %}
             {% endfor %}

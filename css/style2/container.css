@@ -1,4 +1,16 @@
 .container {
-    margin-left: 70px;
-    width: 100%;
+    margin-left: 100px;
+    width: 90%;
+}
+
+.post-list-a:link, post-list-a:visited {
+  /* color: (internal value); */
+  /* text-decoration: underline; */
+  color: #0000CD;
+  cursor: auto;
+  font-size: 1.2em;
+}
+
+.post-list-a:link:active, post-list-a:visited:active {
+  color: (internal value);
 }
