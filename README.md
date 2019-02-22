@@ -1,2 +1,2 @@
 # It's time
-[page home](https://youknownothingg.github.io/itstime/)
+[HomePage](https://youknownothingg.github.io/itstime/)
