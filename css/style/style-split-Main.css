@@ -1,0 +1,15 @@
+
+
+/* Main */
+
+	#main > section {
+		border-top: solid 6px #f4f4f4;
+	}
+
+		#main > section > .container {
+			padding: 6em 0 4em 0;
+		}
+
+		#main > section:first-child {
+			border-top: 0;
+		}

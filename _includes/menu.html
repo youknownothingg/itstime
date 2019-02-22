@@ -1,0 +1,24 @@
+<header class="site-header">
+
+    <!-- <div class="container"> -->
+    <div class="site-header-container">
+        <nav class="site-header-nav" role="navigation">
+            {% for nav in site.navs %}
+            <div class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center">
+                <a href="{{ site.baseurl }}/{{ nav.href }}"
+                   target="{{ nav.target | default: _self }}"
+                   title="{{ nav.label }}">
+                    {{ nav.label }}
+                </a>
+                {% if nav.subnav %}
+                <ul class="submenu">
+                    {% for subItem in nav.subnav %}
+                    <li><a href="{{ site.baseurl }}/{{ nav.href }}/{{ subItem.subHref }}">{{ subItem.subLabel }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </nav>
+    </div>
+</header>

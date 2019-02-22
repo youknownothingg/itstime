@@ -1,0 +1,116 @@
+# Site settings
+title: Ion
+email: youknownothing.iter@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  日拱一卒
+  功不唐捐
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+github_url: https://github.com/youknownothingg
+baseurl: "/itstime" # the subpath of your site, e.g. /blog/
+# repository: youknownothingg/youknownothingg.github.io
+# url: https://youknownothingg.github.io
+
+# Build settings
+markdown: kramdown
+
+theme: jekyll-theme-leap-day
+
+
+# Navigation. top menu list
+menus:
+
+  -
+    href: /share/2017/10/01/resource-sharing.html
+    label: 资源
+
+  -
+    href: /life.html
+    label: 故事
+
+  -
+    href: /arch.html
+    label: 架构
+
+  -
+    href: /payment.html
+    label: 支付
+
+  -
+    href: /link.html
+    label: 友链
+
+  -
+    href: /about.html
+    label: 关于
+
+
+# Navigation. main menu list
+navs:
+
+  -
+    href:
+    label: Home
+
+  -
+
+    href: Java
+    label: Java
+
+  -
+    href: SpringBoot
+    label: Spring Boot
+
+  -
+    href: SpringCloud
+    label: Spring Cloud
+    subnav:
+
+      -
+        subHref: SpringCloudConfig
+        subLabel: Spring Cloud Config
+
+      -
+        subHref: SpringCloudFeign
+        subLabel: Spring Cloud Feign
+
+  -
+    href: list
+    label: Archieve
+
+  -
+    href: contact
+    label: Contact
+
+  -
+    href: about
+    label: About
+
+# labels. my blog key words
+labels:
+
+  -
+    href: /fastdfs.html
+    label: FastDFS
+
+  -
+    href: /mongodb.html
+    label: MongoDB
+
+  -
+    href: /docker.html
+    label: Docker
+
+  -
+    href: /open-source.html
+    label: Code
+
+  -
+    href: /it.html
+    label: It
+
+  -
+    href: /python.html
+    label: Python
