@@ -18,37 +18,8 @@ markdown: kramdown
 
 theme: jekyll-theme-leap-day
 
-
-# Navigation. top menu list
-menus:
-
-  -
-    href: /share/2017/10/01/resource-sharing.html
-    label: 资源
-
-  -
-    href: /life.html
-    label: 故事
-
-  -
-    href: /arch.html
-    label: 架构
-
-  -
-    href: /payment.html
-    label: 支付
-
-  -
-    href: /link.html
-    label: 友链
-
-  -
-    href: /about.html
-    label: 关于
-
-
 # Navigation. main menu list
-navs:
+menus:
 
   -
     href:
@@ -56,20 +27,20 @@ navs:
 
   -
 
-    href: Java
+    href: cat/java
     label: Java
 
   -
-    href: SpringBoot
+    href: cat/springboot
     label: Spring Boot
 
   -
-    href: SpringCloud
+    href: cat/springcloud
     label: Spring Cloud
     subnav:
 
       -
-        subHref: SpringCloudConfig
+        subHref: config
         subLabel: Spring Cloud Config
 
       -
@@ -77,40 +48,17 @@ navs:
         subLabel: Spring Cloud Feign
 
   -
-    href: list
+    href: cat/list
     label: Archieve
 
   -
-    href: contact
+    href: cat/casual
+    label: Casual
+
+  -
+    href: cat/contact
     label: Contact
 
   -
-    href: about
+    href: cat/about
     label: About
-
-# labels. my blog key words
-labels:
-
-  -
-    href: /fastdfs.html
-    label: FastDFS
-
-  -
-    href: /mongodb.html
-    label: MongoDB
-
-  -
-    href: /docker.html
-    label: Docker
-
-  -
-    href: /open-source.html
-    label: Code
-
-  -
-    href: /it.html
-    label: It
-
-  -
-    href: /python.html
-    label: Python

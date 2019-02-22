@@ -3,7 +3,7 @@
     <!-- <div class="container"> -->
     <div class="site-header-container">
         <nav class="site-header-nav" role="navigation">
-            {% for nav in site.navs %}
+            {% for nav in site.menus %}
             <div class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center">
                 <a href="{{ site.baseurl }}/{{ nav.href }}"
                    target="{{ nav.target | default: _self }}"

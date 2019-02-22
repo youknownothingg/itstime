@@ -15,16 +15,5 @@ layout: default
                 {% endif %}
             {% endfor %}
         </ul>
-        <h3>2015</h3>
-        <ul>
-            {% for post in site.posts %}
-                {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-                {% if year == "2015" %}
-                    <li>
-                      {{ post.date | date: "%m-%d" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
     </div>
 </section>
